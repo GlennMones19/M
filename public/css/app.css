@@ -10021,7 +10021,8 @@ body .l-landing__hero {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 110vh;
+  height: 100%;
+  padding-bottom: 145px;
 }
 body .l-landing__hero .l-content__wrapper {
   max-width: 1110px;
@@ -10099,9 +10100,9 @@ body .l-welcome .l-welcome__text {
   text-align: center;
   padding: 0 60px;
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1126px) {
   body .l-welcome .l-welcome__text {
-    margin-top: -50px;
+    padding: 0 100px;
   }
 }
 body .l-welcome .l-welcome__text > h3 {
@@ -10233,6 +10234,11 @@ body .l-what__can .l-what__wrapper .l-what__text p:nth-child(1) {
   font-weight: bold;
   font-family: "Libre Baskerville", serif;
 }
+@media screen and (max-width: 926px) {
+  body .l-what__can .l-what__wrapper .l-what__text p:nth-child(1) {
+    margin-top: 30px;
+  }
+}
 body .l-what__can .l-what__wrapper .l-what__text p:nth-child(2) {
   font-size: 23px;
   font-weight: regular;
@@ -10295,6 +10301,11 @@ body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(1) {
   font-size: 40px;
   font-weight: bold;
   font-family: "Libre Baskerville", serif;
+}
+@media screen and (max-width: 926px) {
+  body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(1) {
+    margin-top: 30px;
+  }
 }
 body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(2) {
   font-size: 23px;
@@ -10369,9 +10380,14 @@ body .footer .footer__wrapper .nav-footer .col-md-4 > a .dot-oranger {
 body .footer .footer__wrapper .nav-footer .col-md-4:nth-child(1) {
   padding-left: 235px;
 }
-@media screen and (max-width: 1196px) and (min-width: 767px) {
+@media screen and (max-width: 1196px) and (min-width: 972px) {
   body .footer .footer__wrapper .nav-footer .col-md-4:nth-child(1) {
     padding-left: 100px;
+  }
+}
+@media screen and (max-width: 971px) {
+  body .footer .footer__wrapper .nav-footer .col-md-4:nth-child(1) {
+    padding-left: 0;
   }
 }
 

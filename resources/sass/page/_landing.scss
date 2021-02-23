@@ -13,7 +13,8 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 110vh;
+    height: 100%;
+    padding-bottom: 145px;
     .l-content__wrapper{
       max-width: 1110px;
       width: 100%;
@@ -107,8 +108,8 @@ body{
         border-radius: 10px;
         text-align: center;
         padding: 0 60px;
-        @media screen and (max-width: 1250px) {
-          margin-top: -50px;
+        @media screen and (max-width: 1126px) {
+          padding: 0 100px;
         }
       & > h3{
         font-family: $ff;
@@ -245,6 +246,9 @@ body{
           font-size: 40px;
           font-weight: bold;
           font-family: $ff;
+          @media screen and (max-width: 926px) {
+            margin-top: 30px;
+          }
         }
         p:nth-child(2) {
           font-size: 23px;
@@ -310,6 +314,9 @@ body{
           font-size: 40px;
           font-weight: bold;
           font-family: $ff;
+          @media screen and (max-width: 926px) {
+            margin-top: 30px;
+          }
         }
         p:nth-child(2) {
           font-size: 23px;
@@ -385,9 +392,14 @@ body{
           &:nth-child(1) {
             padding-left: 235px;
           }
-          @media screen and (max-width: 1196px) and (min-width: 767px) {
+          @media screen and (max-width: 1196px) and (min-width: 972px) {
             &:nth-child(1) {
               padding-left: 100px;
+            }
+          }
+          @media screen and (max-width: 971px) {
+            &:nth-child(1) {
+              padding-left: 0;
             }
           }
         }
