@@ -1,43 +1,40 @@
 @extends('layouts.app')
 
 @section('content')
-    <section><div class="l-div__top text-center text-white">REGISTER NOW TO GET 3 FREE MESSAGES</div></section>
     <section class="l-landing__hero">
-        <div class="l-content__wrapper">
-            <div class="l-hero">
-                <div class="l-header__content">
-                    <div class="l-header__nav d-flex">
-                        <img src="{{ asset("./img/logo.png") }}" alt="logo">
-                        <ul class="d-flex">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#AboutUs">About Us</a></li>
-                            <li><a href="#OurPsychics">Our Psychics</a></li>
-                            <li><a href="#ourprices">Our Prices</a></li>
-                            <li><a href="#contact-us">Contact Us</a></li>
-                            <li><a href="#login">Login</a></li>
-                            <li><a href="#register">Register</a></li>
-                        </ul>
+        <img src="./img/hero-img.jpg" alt="" class="img-fluid">
+        <div class="l-div__top text-center text-white">REGISTER NOW TO GET 3 FREE MESSAGES</div>
+        <div class="l-content__container">
+            <div class="l-header__nav d-flex">
+                <img src="{{ asset("./img/logo.png") }}" alt="logo">
+                <ul class="d-flex">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#AboutUs">About Us</a></li>
+                    <li><a href="#OurPsychics">Our Psychics</a></li>
+                    <li><a href="#ourprices">Our Prices</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#register">Register</a></li>
+                </ul>
+            </div>
+            <div class="l-available__box">
+                <div class="l-available">
+                    <div class="l-available__text h-100 d-flex">
+                        <span class="my-auto ml-3"></span>
+                        <p class="my-auto ml-3 text-white">AVAILABLE</p>
+                        <p class="my-auto text-white">24/7</p>
                     </div>
-                    <div class="l-available__box">
-                        <div class="l-available">
-                            <div class="l-available__text h-100 d-flex">
-                                <span class="my-auto ml-3"></span>
-                                <p class="my-auto ml-3 text-white">AVAILABLE</p>
-                                <p class="my-auto text-white">24/7</p>
-                            </div>
-                            <p class="d-flex">TEXT YOUR WAY TO HAPPINESS</p>
-                        </div>
-                    </div>
-                    <div class="l-free__text">
-                        <p>3 Free Messages to the<br>
-                        Psychics of your choice</p>
-                    </div>
-                    <div class="l-loginregister mt-5">
-                        <div class="l-btn__group d-flex">
-                            <button class="btn btn-warning text-white ml-3">Register</button>
-                            <button class="btn btn-outline-warning text-white ml-3">Login</button>
-                        </div>
-                    </div>
+                    <p class="d-flex">TEXT YOUR WAY TO HAPPINESS</p>
+                </div>
+            </div>
+            <div class="l-free__text">
+                <p>3 Free Messages to the<br>
+                Psychics of your choice</p>
+            </div>
+            <div class="l-loginregister mt-5">
+                <div class="l-btn__group d-flex">
+                    <button class="btn btn-warning text-white ml-3">Register</button>
+                    <button class="btn btn-outline-warning text-white ml-3">Login</button>
                 </div>
             </div>
         </div>
@@ -51,7 +48,7 @@
             career and so much more. Professional, ethical and tested psychic readers are
             AVAILABLE NOW.</p>
         </div>
-        <div class="l-welcome__top__rated mt-5">
+        <div class="l-welcome__top__rated">
             <h1 class="text-center">OUR TOP RATED<br>
             PSYCHICS</h1>
             <ul class="l-toprated__img d-flex flex-wrap justify-content-between">
@@ -174,14 +171,16 @@
     </section>
     <section class="l-types__reading">
        <div class="l-wrapper__bg">
-           <div class="l-types__wrapper d-flex justify-content-center align-items-center">
+           <div class="l-types__wrapper">
+                <div class="l-types__content d-flex justify-content-center align-items-center">
                 <img src="{{ asset("./img/types.png") }}" alt="">
-                <div class="l-reading__text">
-                    <p>TYPES OF<br>
-                        READINGS</p>
-                    <p>Lorem Ipsum is simply dummy text of <br> the printing
-                        nd typesetting industry.<br> Lorem Ipsum has been the
-                        industry's<br> standard dummy text ever since the <br>1500s</p>
+                    <div class="l-reading__text">
+                        <p>TYPES OF<br>
+                            READINGS</p>
+                        <p>Lorem Ipsum is simply dummy text of <br> the printing
+                            nd typesetting industry.<br> Lorem Ipsum has been the
+                            industry's<br> standard dummy text ever since the <br>1500s</p>
+                    </div>
                 </div>
             </div>
        </div>
