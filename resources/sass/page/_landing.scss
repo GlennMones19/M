@@ -12,11 +12,16 @@ body {
     }
     .l-landing__hero {
         background-image: url("../../../public/img/hero-img.jpg");
-        background-repeat: no-repeat;
-        background-position: 34% 60%;
-        background-size: auto;
-        height: 100%;
-        padding-bottom: 195px;
+        background-repeat: no-repeat; 
+        background-position: center;
+        background-attachment: fixed;       
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+        width:100%;
+        padding-bottom: 165px;
         .l-content__wrapper {
             max-width: 1133px;
             width: 100%;

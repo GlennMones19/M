@@ -10021,10 +10021,12 @@ body .l-div__top {
 body .l-landing__hero {
   background-image: url(/images/hero-img.jpg?cf5b8efcb1a433eb7b3ee53f0272704f);
   background-repeat: no-repeat;
-  background-position: 34% 60%;
-  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   height: 100%;
-  padding-bottom: 195px;
+  width: 100%;
+  padding-bottom: 165px;
 }
 body .l-landing__hero .l-content__wrapper {
   max-width: 1133px;
