@@ -10013,14 +10013,22 @@ body {
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 1600px) and (min-width: 768px) {
+@media screen and (max-width: 1535px) and (orientation: landscape) {
   body {
-    min-width: 50%;
+    max-width: 100%;
+    width: 100%;
     height: 100%;
   }
 }
 body .l-landing__hero {
   position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+body .l-landing__hero .img-fluid {
+  width: 100% !important;
 }
 body .l-landing__hero .l-div__top {
   position: absolute;
@@ -10078,7 +10086,6 @@ body .l-landing__hero .l-content__container .l-available__box {
   background-color: #E82E83;
   position: relative;
   top: 90px;
-  left: 14px;
 }
 body .l-landing__hero .l-content__container .l-available__box .l-available {
   position: absolute;
