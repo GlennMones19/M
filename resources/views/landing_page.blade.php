@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section><div class="l-div__top text-center text-white py-2">REGISTER NOW TO GET 3 FREE MESSAGES</div></section>
+    <section><div class="l-div__top text-center text-white">REGISTER NOW TO GET 3 FREE MESSAGES</div></section>
     <section class="l-landing__hero">
         <div class="l-content__wrapper">
             <div class="l-hero">
@@ -9,33 +9,33 @@
                     <div class="l-header__nav d-flex">
                         <img src="{{ asset("./img/logo.png") }}" alt="logo">
                         <ul class="d-flex">
-                            <li class="mx-2"><a href="#home">Home</a></li>
-                            <li class="mx-2"><a href="#AboutUs">About Us</a></li>
-                            <li class="mx-2"><a href="#OurPsychics">Our Psychics</a></li>
-                            <li class="mx-2"><a href="#ourprices">Our Prices</a></li>
-                            <li class="mx-2"><a href="#contact-us">Contact Us</a></li>
-                            <li class="mx-2"><a href="#login">Login</a></li>
-                            <li class="mx-2"><a href="#register">Register</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#AboutUs">About Us</a></li>
+                            <li><a href="#OurPsychics">Our Psychics</a></li>
+                            <li><a href="#ourprices">Our Prices</a></li>
+                            <li><a href="#contact-us">Contact Us</a></li>
+                            <li><a href="#login">Login</a></li>
+                            <li><a href="#register">Register</a></li>
                         </ul>
                     </div>
                     <div class="l-available__box">
                         <div class="l-available">
-                            <div class="l-available__text h-100 d-flex justify-content-center">
-                                <span class="my-auto mr-2"></span>
-                                <p class="my-auto mr-2 text-white">AVAILABLE</p>
+                            <div class="l-available__text h-100 d-flex">
+                                <span class="my-auto ml-3"></span>
+                                <p class="my-auto ml-3 text-white">AVAILABLE</p>
                                 <p class="my-auto text-white">24/7</p>
                             </div>
-                            <p><img src="{{ asset("./img/text-your-way-to-happiness.svg") }}" alt="Text Your Way to Happiness"></p>
+                            <p class="d-flex">TEXT YOUR WAY TO HAPPINESS</p>
                         </div>
                     </div>
-                    <div class="l-free__text mt-4">
+                    <div class="l-free__text">
                         <p>3 Free Messages to the<br>
                         Psychics of your choice</p>
                     </div>
                     <div class="l-loginregister mt-5">
                         <div class="l-btn__group d-flex">
-                            <button class="btn btn-warning text-white mx-2">Register</button>
-                            <button class="btn btn-outline-warning text-white mx-2">Login</button>
+                            <button class="btn btn-warning text-white ml-3">Register</button>
+                            <button class="btn btn-outline-warning text-white ml-3">Login</button>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
         </div>
     </section>
     <section class="l-welcome">
-        <div class="l-welcome__text pt-5 text-white py-3">
+        <div class="l-welcome__text text-white">
             <h3>WELCOME TO TEXT OUR PSYCHICS.</h3>
             <p>Psychic messaging is easy, quick and convenient. Our site offers Psychic Readings
             by instant messaging. Chat with your favorite readers and only pay per question.
@@ -54,7 +54,7 @@
         <div class="l-welcome__top__rated mt-5">
             <h1 class="text-center">OUR TOP RATED<br>
             PSYCHICS</h1>
-            <ul class="l-toprated__img d-flex flex-wrap justify-content-between mt-5">
+            <ul class="l-toprated__img d-flex flex-wrap justify-content-between">
                 <li>
                     <dl>
                         <dt><img src="{{ asset("./img/1.png") }}" alt=""></dt>
@@ -111,7 +111,7 @@
                     </dl>
                 </li>
             </ul>
-            <div class="l-view__more d-flex justify-content-center mt-5">
+            <div class="l-view__more d-flex justify-content-center">
                 <button class="btn btn-warning btn-override text-white">VIEW MORE</button>
             </div>
         </div>
@@ -123,7 +123,7 @@
             <ul class="l-why__ratings d-flex flex-wrap justify-content-between mt-5 pl-0">
                 <li>
                     <dl>
-                        <dt><img src="{{ asset('./img/rates.png') }}" alt=""></dt>
+                        <dt><img src="{{ asset('./img/rates.jpg') }}" alt=""></dt>
                         <dd class="d-flex flex-column w-100 justify-content-center">
                             <p>5 Star<br>
                             Psychics</p>
@@ -133,9 +133,9 @@
                         </dd>
                     </dl>
                 </li>
-                <li>
+                <li class="ml-3">
                     <dl>
-                        <dt><img src="{{ asset('./img/credits.png') }}" alt=""></dt>
+                        <dt><img src="{{ asset('./img/credits.jpg') }}" alt=""></dt>
                         <dd class="d-flex flex-column w-100 justify-content-center">
                             <p>3 Free<br>
                             Credits</p>
@@ -145,9 +145,9 @@
                         </dd>
                     </dl>
                 </li>
-                <li>
+                <li class="ml-3">
                     <dl>
-                        <dt><img src="{{ asset('./img/satisfactory.png') }}" alt=""></dt>
+                        <dt><img src="{{ asset('./img/satisfactory.jpg') }}" alt=""></dt>
                         <dd class="d-flex flex-column w-100 justify-content-center">
                             <p>Satisfaction<br>
                             Gauaranteed</p>
@@ -174,14 +174,14 @@
     </section>
     <section class="l-types__reading">
        <div class="l-wrapper__bg">
-           <div class="l-types__wrapper d-flex justify-content-evenly align-items-center">
+           <div class="l-types__wrapper d-flex justify-content-center align-items-center">
                 <img src="{{ asset("./img/types.png") }}" alt="">
-                <div class="l-reading__text ml-5">
+                <div class="l-reading__text">
                     <p>TYPES OF<br>
                         READINGS</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing<br>
-                        nd typesetting industry. Lorem Ipsum has been the<br>
-                        industry's standard dummy text ever since the 1500s</p>
+                    <p>Lorem Ipsum is simply dummy text of <br> the printing
+                        nd typesetting industry.<br> Lorem Ipsum has been the
+                        industry's<br> standard dummy text ever since the <br>1500s</p>
                 </div>
             </div>
        </div>
@@ -190,9 +190,9 @@
         <div class="l-why__wrapper d-flex justify-content-center align-items-center">
             <div class="l-psychics__text">
                 <p>WHY OUR<br>
-                PSYCHICS ?</p>  
+                PSYCHICS ?</p>
                 <p>Lorem Ipsum is simply dummy text of the printing<br>
-                    nd typesetting industry. Lorem Ipsum has been the<br>
+                    nd typesetting industry. Lorem Ipsum has been the<br> 
                     industry's standard dummy text ever since the 1500s</p>
             </div>
             <img src="{{ asset("./img/why_are.png") }}" alt="">
@@ -205,12 +205,12 @@
             pay what you asked for, you can chat with your favorite<br>
             readers and only pay per question.</p>
             <div class="d-flex justify-content-center nav-footer">
-                <div class="col-md-4 d-flex flex-column">
+                <div class="d-flex flex-column">
                     <a href="#" class="text-white"><span class="dot-oranger"></span> Home</a>
                     <a href="#" class="text-white"><span class="dot-oranger"></span> Our Psychics</a>
                     <a href="#" class="text-white"><span class="dot-oranger"></span> Contact Us</a>
                 </div>
-                <div class="col-md-4 d-flex flex-column">
+                <div class="d-flex flex-column">
                     <a href="#" class="text-white"><span class="dot-oranger"></span> About Us</a>
                     <a href="#" class="text-white"><span class="dot-oranger"></span> Our Prices</a>
                     <a href="#" class="text-white"><span class="dot-oranger"></span> Privacy Policy and Disclaimer</a>

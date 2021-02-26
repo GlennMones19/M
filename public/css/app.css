@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap);
 @charset "UTF-8";
 /*!
@@ -10009,23 +10009,25 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden !important;
 }
 body .l-div__top {
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
   background-color: #E82E83;
   font-size: 20px;
+  padding: 18.5px 0;
 }
 body .l-landing__hero {
-  background-image: url(/images/hero-img.jpg?c0f554f3486ff60cd391c50e2f360eac);
+  background-image: url(/images/hero-img.jpg?cf5b8efcb1a433eb7b3ee53f0272704f);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: 34% 60%;
+  background-size: auto;
   height: 100%;
-  padding-bottom: 145px;
+  padding-bottom: 195px;
 }
 body .l-landing__hero .l-content__wrapper {
-  max-width: 1110px;
+  max-width: 1133px;
   width: 100%;
   margin: 0 auto;
 }
@@ -10034,11 +10036,22 @@ body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__
   width: 100%;
   height: 78.05px;
   margin-top: 33px;
+  margin-left: 4px;
 }
 body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul {
-  margin-top: 55px;
+  margin: 67px 13px;
+}
+body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul li:nth-child(1) {
+  margin-left: 7px;
+}
+body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul li:nth-child(2), body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul li:nth-child(5), body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul li:nth-child(6), body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul li:nth-child(7) {
+  margin-left: 55px;
+}
+body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul li:nth-child(3), body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul li:nth-child(4) {
+  margin-left: 68px;
 }
 body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-header__nav ul li > a {
+  font-family: "Libre Baskerville", serif;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -10052,7 +10065,8 @@ body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-availabl
   height: 353px;
   background-color: #E82E83;
   position: relative;
-  margin-top: 60px;
+  top: 90px;
+  left: 14px;
 }
 body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-available__box .l-available {
   position: absolute;
@@ -10070,35 +10084,55 @@ body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-availabl
   height: 25px;
   border-radius: 50%;
 }
-body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-available__box .l-available > p > img {
-  max-width: 259.37px;
-  width: 100%;
-  margin-top: 17.1px;
+body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-available__box .l-available .l-available__text > p {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+}
+body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-available__box .l-available > p {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding-top: 5px;
+  line-height: 72px;
 }
 body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-free__text > p {
+  position: relative;
+  top: 67.4px;
+  left: 15px;
+  line-height: 39px;
   font-family: "Poppins", sans-serif;
   font-size: 31px;
   color: #323232;
+  padding-top: 40px;
+}
+body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-loginregister {
+  position: relative;
+  top: 46px;
 }
 body .l-landing__hero .l-content__wrapper .l-hero .l-header__content .l-loginregister .l-btn__group > button {
+  padding: 11px 0 !important;
   color: #FFFFFF;
   font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 body .l-welcome {
   background-image: url(/images/section2-bg.png?e80f88aeed270ce6fd258e343431345c);
   background-repeat: no-repeat;
-  background-position: 100% 100%;
-  background-size: contain;
-  margin-bottom: 100px;
+  background-position: 55% 91%;
+  background-size: auto;
+  margin-bottom: 193px;
 }
 body .l-welcome .l-welcome__text {
   max-width: 1110px;
   width: 100%;
-  margin: -110px auto 0;
+  margin: -90px auto 0;
   background-color: #E82E83;
   border-radius: 10px;
   text-align: center;
-  padding: 0 60px;
+  padding: 57px 60px;
 }
 @media screen and (max-width: 1126px) {
   body .l-welcome .l-welcome__text {
@@ -10106,6 +10140,9 @@ body .l-welcome .l-welcome__text {
   }
 }
 body .l-welcome .l-welcome__text > h3 {
+  position: relative;
+  top: 23px;
+  letter-spacing: 0.0124em;
   font-family: "Libre Baskerville", serif;
   font-size: 35px;
   font-weight: bold;
@@ -10113,56 +10150,117 @@ body .l-welcome .l-welcome__text > h3 {
 body .l-welcome .l-welcome__text > p {
   font-family: "Libre Baskerville", serif;
   font-size: 23px;
+  font-weight: 400;
+  position: relative;
+  top: 20px;
+  padding: 5px 10px;
+  line-height: 42px;
 }
 body .l-welcome .l-welcome__top__rated > h1 {
-  font-size: "Libre Baskerville", serif;
+  font-family: "Libre Baskerville", serif;
   color: #323232;
   font-size: 45px;
   font-weight: bold;
+  margin-top: 107px;
 }
 body .l-welcome .l-welcome__top__rated .l-toprated__img {
-  max-width: 1139px;
+  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
   padding: 0;
+  position: relative;
+  top: 62px;
+  left: 22px;
 }
 @media screen and (max-width: 1109px) {
   body .l-welcome .l-welcome__top__rated .l-toprated__img {
     justify-content: center !important;
   }
 }
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li {
+  margin-bottom: 0.3rem;
+}
 @media screen and (max-width: 1109px) {
   body .l-welcome .l-welcome__top__rated .l-toprated__img > li {
     margin: 0 30px !important;
   }
 }
-body .l-welcome .l-welcome__top__rated .l-toprated__img > li > dl {
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl {
   position: relative;
 }
-body .l-welcome .l-welcome__top__rated .l-toprated__img > li > dl > dt > img {
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl > dt > img {
   max-width: 365px;
   width: 100%;
   height: 450px;
 }
-body .l-welcome .l-welcome__top__rated .l-toprated__img > li > dl > dd {
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl > dd {
   position: absolute;
-  bottom: 10px;
+  bottom: 33px;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl > dd .name {
   font-family: "Libre Baskerville", serif;
-}
-body .l-welcome .l-welcome__top__rated .l-toprated__img > li > dl > dd .name {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 400;
 }
-body .l-welcome .l-welcome__top__rated .l-toprated__img > li > dl > dd .status {
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl > dd .status {
   font-size: 20px;
   font-weight: 400 !important;
+  font-family: "Libre Baskerville", serif;
+  margin-left: 12px;
 }
-body .l-welcome .l-welcome__top__rated .l-toprated__img > li > dl > dd .status .dot-green {
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl > dd .status .dot-green {
   background-color: #13E831;
   width: 14px;
   height: 14px;
   border-radius: 50%;
   display: inline-block;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl > dd > button {
+  padding: 17px;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(3) > dl, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(4) > dl, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(5) > dl, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(6) > dl {
+  position: relative;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl > dt > img, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(3) > dl > dt > img, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(4) > dl > dt > img, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(5) > dl > dt > img, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(6) > dl > dt > img {
+  max-width: 365px;
+  width: 100%;
+  height: 450px;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl > dd, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(3) > dl > dd, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(4) > dl > dd, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(5) > dl > dd, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(6) > dl > dd {
+  position: absolute;
+  bottom: 4px;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl > dd .name, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(3) > dl > dd .name, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(4) > dl > dd .name, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(5) > dl > dd .name, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(6) > dl > dd .name {
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl > dd .status, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(3) > dl > dd .status, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(4) > dl > dd .status, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(5) > dl > dd .status, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(6) > dl > dd .status {
+  font-size: 20px;
+  font-weight: 400 !important;
+  font-family: "Libre Baskerville", serif;
+  margin-left: 12px;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl > dd .status .dot-green, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(3) > dl > dd .status .dot-green, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(4) > dl > dd .status .dot-green, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(5) > dl > dd .status .dot-green, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(6) > dl > dd .status .dot-green {
+  background-color: #13E831;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+}
+body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl > dd > button, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(3) > dl > dd > button, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(4) > dl > dd > button, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(5) > dl > dd > button, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(6) > dl > dd > button {
+  padding: 17px;
+}
+body .l-welcome .l-welcome__top__rated .l-view__more {
+  position: relative;
+  top: 94px;
+  left: 25px;
+}
+body .l-welcome .l-welcome__top__rated .l-view__more > button {
+  padding: 15px;
+  font-weight: bold;
+  font-family: "Libre Baskerville", serif;
+  font-size: 19px;
 }
 body .l-welcome .l-welcome__top__rated .l-view__more > button:hover {
   color: #323232;
@@ -10170,10 +10268,10 @@ body .l-welcome .l-welcome__top__rated .l-view__more > button:hover {
 body .l-why__text {
   background-color: #FFECD7;
   padding-top: 78px;
-  padding-bottom: 60px;
+  padding-bottom: 128px;
 }
 body .l-why__text .l-why__wrapper {
-  max-width: 1110px;
+  max-width: 1131px;
   width: 100%;
   margin: 0 auto;
 }
@@ -10181,6 +10279,13 @@ body .l-why__text .l-why__wrapper > h1 {
   font-family: "Libre Baskerville", serif;
   font-size: 44.96px;
   color: #323232;
+  line-height: 56px;
+  letter-spacing: 0.125rem;
+}
+body .l-why__text .l-why__wrapper .l-why__ratings {
+  position: relative;
+  left: 16px;
+  top: 1px;
 }
 @media screen and (max-width: 1086px) {
   body .l-why__text .l-why__wrapper .l-why__ratings {
@@ -10201,7 +10306,7 @@ body .l-why__text .l-why__wrapper .l-why__ratings > li > dl > dt > img {
 }
 body .l-why__text .l-why__wrapper .l-why__ratings > li > dl > dd {
   position: absolute;
-  top: 100px;
+  top: 107px;
   font-family: "Libre Baskerville", serif;
 }
 body .l-why__text .l-why__wrapper .l-why__ratings > li > dl > dd > p {
@@ -10209,18 +10314,21 @@ body .l-why__text .l-why__wrapper .l-why__ratings > li > dl > dd > p {
   color: #FFFFFF;
   font-weight: 400;
   text-align: center;
+  line-height: 37px;
 }
 body .l-why__text .l-why__wrapper .l-why__ratings > li > dl > dd .btn-wrapper {
+  position: relative;
+  top: 1px;
   border: 4px solid #FFECD7;
   border-radius: 30px;
 }
 body .l-why__text .l-why__wrapper .l-why__ratings > li > dl > dd .btn-wrapper > button {
-  padding: 5px;
-}
-body .l-what__can .l-what__wrapper {
-  max-width: 1110px;
+  max-width: 192.94px;
   width: 100%;
-  margin: 0 auto;
+  padding: 15px;
+}
+body .l-what__can {
+  padding-bottom: 34px;
 }
 @media screen and (max-width: 926px) {
   body .l-what__can .l-what__wrapper {
@@ -10228,6 +10336,11 @@ body .l-what__can .l-what__wrapper {
     flex-direction: column;
     text-align: center;
   }
+}
+body .l-what__can .l-what__wrapper .l-what__text {
+  position: relative;
+  top: 25px;
+  left: 112px;
 }
 body .l-what__can .l-what__wrapper .l-what__text p:nth-child(1) {
   font-size: 40px;
@@ -10241,28 +10354,31 @@ body .l-what__can .l-what__wrapper .l-what__text p:nth-child(1) {
 }
 body .l-what__can .l-what__wrapper .l-what__text p:nth-child(2) {
   font-size: 23px;
-  font-weight: regular;
+  font-weight: 400;
   font-family: "Libre Baskerville", serif;
+  margin-top: 20px;
 }
 body .l-what__can .l-what__wrapper > img {
+  position: relative;
+  left: 143px;
+  margin-top: 37px;
   max-width: 682px;
   width: 100%;
-  margin-top: 30px;
 }
 body .l-types__reading {
   background-color: #FFECD7;
-  padding: 30px 0 30px 0;
+  padding: 30px 0 137px 0;
 }
 body .l-types__reading .l-wrapper__bg {
   background-image: url(/images/bg.png?f125c381c34ae02325db2734a766a598);
   background-repeat: no-repeat;
-  background-position: -16% 50%;
+  background-position: -8.5% 49%;
   background-size: auto;
 }
 body .l-types__reading .l-wrapper__bg .l-types__wrapper {
-  max-width: 1110px;
-  width: 100%;
-  margin: 0 auto;
+  position: relative;
+  top: 68px;
+  left: -63px;
 }
 @media screen and (max-width: 926px) {
   body .l-types__reading .l-wrapper__bg .l-types__wrapper {
@@ -10275,6 +10391,11 @@ body .l-types__reading .l-wrapper__bg .l-types__wrapper > img {
   max-width: 595.85px;
   width: 100%;
 }
+body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-reading__text {
+  position: relative;
+  top: -81px;
+  left: 92px;
+}
 body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-reading__text p:nth-child(1) {
   font-size: 40px;
   font-weight: bold;
@@ -10284,11 +10405,10 @@ body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-reading__text p:nth-c
   font-size: 23px;
   font-weight: 400;
   font-family: "Libre Baskerville", serif;
+  line-height: 41px;
 }
 body .l-why__psychics .l-why__wrapper {
-  max-width: 1110px;
-  width: 100%;
-  margin: 0 auto;
+  padding: 100px 0 36px;
 }
 @media screen and (max-width: 926px) {
   body .l-why__psychics .l-why__wrapper {
@@ -10297,10 +10417,16 @@ body .l-why__psychics .l-why__wrapper {
     text-align: center;
   }
 }
+body .l-why__psychics .l-why__wrapper > .l-psychics__text {
+  position: relative;
+  top: -64px;
+  left: 28px;
+}
 body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(1) {
   font-size: 40px;
   font-weight: bold;
   font-family: "Libre Baskerville", serif;
+  letter-spacing: 0.0125em;
 }
 @media screen and (max-width: 926px) {
   body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(1) {
@@ -10309,19 +10435,22 @@ body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(1) {
 }
 body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(2) {
   font-size: 23px;
-  font-weight: regular;
+  font-weight: 400;
   font-family: "Libre Baskerville", serif;
+  line-height: 35px;
 }
 body .l-why__psychics .l-why__wrapper > img {
-  max-width: 682px;
+  max-width: 470px;
   width: 100%;
-  margin-top: 30px;
+  position: relative;
+  top: -30px;
+  left: 125px;
 }
 body .footer {
   background-image: url(/images/footer.jpg?58fa4fbb3e9eab61dc4246b845921acf);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: 53% 3%;
+  background-size: auto;
   padding-top: 60px;
   padding-bottom: 20px;
 }
@@ -10334,61 +10463,67 @@ body .footer .footer__wrapper > img {
   width: 100%;
   margin: 0 auto;
   display: flex;
+  margin-top: -7px;
   margin-bottom: 20px;
 }
 body .footer .footer__wrapper .offers {
   font-size: 16px;
   color: #FFFFFF;
+  font-weight: 400;
   opacity: 0.5;
   text-align: center;
+  letter-spacing: 0.01em;
+  line-height: 19px;
+  font-family: "Libre Baskerville", serif;
 }
 body .footer .footer__wrapper .reserved {
   font-size: 16px;
+  font-family: "Libre Baskerville", serif;
   color: #FFFFFF;
   opacity: 0.5;
   text-align: center;
   margin-bottom: 20px;
 }
 body .footer .footer__wrapper hr {
-  margin-top: 1rem;
+  margin-top: 7rem;
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.467);
 }
 body .footer .footer__wrapper .nav-footer {
-  max-width: 100%;
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 30px;
+  position: relative;
+  top: 43px;
+  right: 53px;
 }
-body .footer .footer__wrapper .nav-footer .col-md-4 > a {
+body .footer .footer__wrapper .nav-footer > div > a {
   font-size: 18px;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   text-decoration: none;
 }
-body .footer .footer__wrapper .nav-footer .col-md-4 > a:hover {
+body .footer .footer__wrapper .nav-footer > div > a:hover {
   color: #d3d3d3bf;
 }
-body .footer .footer__wrapper .nav-footer .col-md-4 > a .dot-oranger {
+body .footer .footer__wrapper .nav-footer > div > a .dot-oranger {
   background-color: #FE9017;
   width: 9px;
   height: 9px;
   border-radius: 50%;
   display: inline-block;
 }
-body .footer .footer__wrapper .nav-footer .col-md-4:nth-child(1) {
-  padding-left: 235px;
-}
 @media screen and (max-width: 1196px) and (min-width: 972px) {
-  body .footer .footer__wrapper .nav-footer .col-md-4:nth-child(1) {
+  body .footer .footer__wrapper .nav-footer > div:nth-child(1) {
     padding-left: 100px;
   }
 }
 @media screen and (max-width: 971px) {
-  body .footer .footer__wrapper .nav-footer .col-md-4:nth-child(1) {
+  body .footer .footer__wrapper .nav-footer > div:nth-child(1) {
     padding-left: 0;
   }
+}
+body .footer .footer__wrapper .nav-footer > div:nth-child(2) {
+  position: relative;
+  left: 179px;
 }
 
 ul {
