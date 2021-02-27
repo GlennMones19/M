@@ -10497,7 +10497,7 @@ body .footer {
   background-position: 53% 3%;
   background-size: auto;
   padding-top: 60px;
-  padding-bottom: 20px;
+  overflow: hidden;
 }
 body .footer .footer__wrapper {
   max-width: 100%;
