@@ -7,7 +7,7 @@
         <div class="l-content__container">
             <div class="l-header__nav d-flex">
                 <img src="{{ asset("./img/logo.png") }}" alt="logo">
-                <ul class="d-flex">
+                <!-- <ul class="d-flex">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#AboutUs">About Us</a></li>
                     <li><a href="#OurPsychics">Our Psychics</a></li>
@@ -15,7 +15,7 @@
                     <li><a href="#contact-us">Contact Us</a></li>
                     <li><a href="#login">Login</a></li>
                     <li><a href="#register">Register</a></li>
-                </ul>
+                </ul> -->
             </div>
             <div class="l-available__box">
                 <div class="l-available">
