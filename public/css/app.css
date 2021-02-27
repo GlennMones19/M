@@ -10408,14 +10408,13 @@ body .l-types__reading {
   background-color: #FFECD7;
   padding: 30px 0 137px 0;
   position: relative;
-  height: 887.99px;
+  overflow: hidden;
 }
 body .l-types__reading .l-wrapper__bg {
   background-image: url(/images/bg.png?f125c381c34ae02325db2734a766a598);
   background-repeat: no-repeat;
   background-position: -8.5% 49%;
   background-size: auto;
-  position: absolute;
   width: 100%;
 }
 body .l-types__reading .l-wrapper__bg .l-types__wrapper {
@@ -10451,7 +10450,7 @@ body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content .l-rea
   font-size: 23px;
   font-weight: 400;
   font-family: "Libre Baskerville", serif;
-  line-height: 41px;
+  text-align: justify;
 }
 body .l-why__psychics .l-why__wrapper {
   padding: 100px 0 36px;

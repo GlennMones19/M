@@ -416,13 +416,12 @@
             background-color: #FFECD7;
             padding: 30px 0 137px 0;
             position: relative;
-            height: 887.99px;
+            overflow: hidden;
             .l-wrapper__bg {
                 background-image: url("../../../public/img/bg.png");
                 background-repeat: no-repeat;
                 background-position: -8.5% 49%;
                 background-size: auto;
-                position: absolute;
                 width: 100%;
                 .l-types__wrapper {
                     position: relative;
@@ -454,7 +453,7 @@
                                 font-size: 23px;
                                 font-weight: 400;
                                 font-family: $ff;
-                                line-height: 41px;
+                                text-align: justify;
                             }
                         }
                     }
