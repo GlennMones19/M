@@ -10379,6 +10379,7 @@ body .l-what__can .l-what__wrapper .l-what__text {
   position: relative;
   top: 25px;
   left: 112px;
+  width: 40%;
 }
 body .l-what__can .l-what__wrapper .l-what__text p:nth-child(1) {
   font-size: 40px;
@@ -10437,8 +10438,9 @@ body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content > img 
 }
 body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content .l-reading__text {
   position: relative;
-  top: -81px;
+  bottom: 20px;
   left: 92px;
+  width: 40%;
 }
 body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content .l-reading__text p:nth-child(1) {
   font-size: 40px;
@@ -10463,8 +10465,8 @@ body .l-why__psychics .l-why__wrapper {
 }
 body .l-why__psychics .l-why__wrapper > .l-psychics__text {
   position: relative;
-  top: -64px;
   left: 28px;
+  width: 40%;
 }
 body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(1) {
   font-size: 40px;

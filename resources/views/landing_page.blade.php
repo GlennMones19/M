@@ -42,11 +42,9 @@
     <section class="l-welcome">
         <div class="l-welcome__text text-white">
             <h3>WELCOME TO TEXT OUR PSYCHICS.</h3>
-            <p>Psychic messaging is easy, quick and convenient. Our site offers Psychic Readings
-            by instant messaging. Chat with your favorite readers and only pay per question.
-            Instantly receive answers to ALL your questions about love, relationships, money,
-            career and so much more. Professional, ethical and tested psychic readers are
-            AVAILABLE NOW.</p>
+            <p>Do you have questions that need the help of a psychic to answer? Do you need that answer right away without dawdle? Text our Psychics is an instant messaging psychic reading site that has all you need. With professional psychics available round the clock, you can get readings and answers to your questions right where you are. We do not only offer comfortability, our services are topnotch and affordable as you only get to pay per question. Our advisors are ready to give insights to your questions about relationship, finance, love, career, and the sphere of your life. Your questions and readings are safe with us as we have 100% advisor-client confidentiality.<br>
+            What are you waiting for? Our psychics are ready to offer the clarity and guidance you need. 
+            </p>
         </div>
         <div class="l-welcome__top__rated">
             <h1 class="text-center">OUR TOP RATED<br>
@@ -162,9 +160,13 @@
             <div class="l-what__text">
                 <p>WHAT CAN A<br>
                 PSYCHICS DO ?</p>
-                <p>Lorem Ipsum is simply dummy text of the printing<br>
-                nd typesetting industry. Lorem Ipsum has been the<br>
-                industry's standard dummy text ever since the 1500s</p>
+                <p>The world is full of mysteries with only a few given the power 
+                to see beyond what our eyes can perceive. Our gifted and professional advisors 
+                can act as your third eye to guide you through life's uncertainties. Either you are on the 
+                verge of making an important decision or you need an insight into a career path, our psychics can 
+                tap into the supernatural and get the answer you seek. How about that seemingly meaningless dream 
+                you had but couldn't shrug off? Our psychics are prepared to listen and fish out what the universe 
+                is trying to tell you. </p>
             </div>
             <img src="{{ asset("./img/what_can.png") }}" alt="">
         </div>
@@ -177,9 +179,13 @@
                     <div class="l-reading__text">
                         <p>TYPES OF<br>
                             READINGS</p>
-                        <p>Lorem Ipsum is simply dummy text of <br> the printing
-                            nd typesetting industry.<br> Lorem Ipsum has been the
-                            industry's<br> standard dummy text ever since the <br>1500s</p>
+                        <p>
+                        We at Text Our Psychics  ourselves on having one of the most diverse and gifted professional psychics. Answers to your innermost questions can be answered in various ways and our psychics got it all.<br>
+                        If you'd prefer the tarot cards, we have experts that can get the answer you need just by drawing cards for you. <br>
+                        Talented professionals can also see the mapping of your life in the stars and through their psychic power can help find a link from your past to the present to give you a favorable future. <br>
+                        How about trying to connect with your loved ones? We have mediums that can serve as the gap between you and your deceased loved ones. All the insight you want can be gotten through those you have on the other side. <br>
+                        There is power in numbers, if you believe so, our numerologist can discern all the obscurities in your life. With your birthdate, our numerologist can bring to life what your destiny is. <br>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -190,9 +196,10 @@
             <div class="l-psychics__text">
                 <p>WHY OUR<br>
                 PSYCHICS ?</p>
-                <p>Lorem Ipsum is simply dummy text of the printing<br>
-                    nd typesetting industry. Lorem Ipsum has been the<br> 
-                    industry's standard dummy text ever since the 1500s</p>
+                <p>
+                Two words, seasoned psychics. Our psychics do not only have years of experience but are also available 24/7 to attend to your needs. Regardless of your preference or choice, you will always find the perfect psychic here at Text Our Psychics. Our watchword is authenticity and confidentiality so readings are not only accurate but stays between you and your psychics. If on the other hand, you don't want to give your name, that won't change a thing as our psychics only need to connect to your energy. Before you know it, you will have clarity like never before. <br>
+                Our psychics possess the power of clairvoyance, and a look into your question might be just what you need for a better life. 
+                </p>
             </div>
             <img src="{{ asset("./img/why_are.png") }}" alt="">
         </div>

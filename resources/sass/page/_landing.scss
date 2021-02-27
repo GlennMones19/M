@@ -387,6 +387,7 @@
                     position: relative;
                     top: 25px;
                     left: 112px;
+                    width: 40%;
                     p:nth-child(1) {
                         font-size: 40px;
                         font-weight: bold;
@@ -441,8 +442,9 @@
                         }
                         .l-reading__text {
                             position: relative;
-                            top: -81px;
+                            bottom: 20px;
                             left: 92px;
+                            width: 40%;
                             p:nth-child(1) {
                                 font-size: 40px;
                                 font-weight: bold;
@@ -469,8 +471,8 @@
                 }
                 &>.l-psychics__text {
                     position: relative;
-                    top: -64px;
                     left: 28px;
+                    width: 40%;
                     p:nth-child(1) {
                         font-size: 40px;
                         font-weight: bold;
