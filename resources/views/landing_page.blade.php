@@ -160,7 +160,7 @@
         <div class="l-what__wrapper d-flex justify-content-center align-items-center">
             <div class="l-what__text">
                 <p>WHAT CAN A<br>
-                PSYCHICS DO ?</p>
+                PSYCHIC DO ?</p>
                 <p>The world is full of mysteries with only a few given the power 
                 to see beyond what our eyes can perceive. Our gifted and professional advisors 
                 can act as your third eye to guide you through life's uncertainties. Either you are on the 

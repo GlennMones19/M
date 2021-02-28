@@ -10255,6 +10255,7 @@ body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl >
 }
 body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(1) > dl > dd > button {
   padding: 17px;
+  font-family: "Libre Baskerville", serif;
 }
 body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(3) > dl, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(4) > dl, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(5) > dl, body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(6) > dl {
   position: relative;
