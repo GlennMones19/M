@@ -421,9 +421,12 @@
             .l-wrapper__bg {
                 background-image: url("../../../public/img/bg.png");
                 background-repeat: no-repeat;
-                background-position: 0.5% 12%;
+                background-position: -18.5% 32%;
                 background-size: 55%;
                 width: 100%;
+                @media screen and (max-width: 1679px) {
+                    background-size: 52%;
+                }
                 .l-types__wrapper {
                     position: relative;
                     top: 68px;

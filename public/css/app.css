@@ -10414,9 +10414,14 @@ body .l-types__reading {
 body .l-types__reading .l-wrapper__bg {
   background-image: url(/images/bg.png?f125c381c34ae02325db2734a766a598);
   background-repeat: no-repeat;
-  background-position: 0.5% 12%;
+  background-position: -18.5% 32%;
   background-size: 55%;
   width: 100%;
+}
+@media screen and (max-width: 1679px) {
+  body .l-types__reading .l-wrapper__bg {
+    background-size: 52%;
+  }
 }
 body .l-types__reading .l-wrapper__bg .l-types__wrapper {
   position: relative;
