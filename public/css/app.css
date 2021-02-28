@@ -10597,3 +10597,7 @@ ul {
   border-radius: 30px;
   color: #FFFFFF;
 }
+
+.modal {
+  font-family: "Libre Baskerville", serif;
+}

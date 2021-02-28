@@ -1,6 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+<div id="stickLayer" style="display:none;" class="stick_popup">
+        <div class="stick_close" onclick="$.stick_close()">X</div>
+        <div class="stick_content">
+            <h1>Hello! I got your attention!</h1>
+        </div>
+    </div>
     <section class="l-landing__hero">
         <img src="./img/hero-img.jpg" alt="" class="img-fluid">
         <div class="l-div__top text-center text-white">REGISTER NOW TO GET 3 FREE MESSAGES</div>
@@ -226,4 +232,5 @@
             <p class="reserved">© 2021 All rights reserved.</p>
         </div>
     </footer>
+    @include("popup")
 @endsection

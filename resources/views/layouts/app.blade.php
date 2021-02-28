@@ -12,10 +12,8 @@
 </head>
 <body>
   @yield('content')
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="{{ asset('js/app.js') }}"></script>
-<script type="text/javascript" async
-  src="//l.getsitecontrol.com/575xnq34.js">
-</script>
 </body>
 
 </html>
