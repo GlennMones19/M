@@ -10414,8 +10414,8 @@ body .l-types__reading {
 body .l-types__reading .l-wrapper__bg {
   background-image: url(/images/bg.png?f125c381c34ae02325db2734a766a598);
   background-repeat: no-repeat;
-  background-position: -8.5% 49%;
-  background-size: auto;
+  background-position: 0.5% 12%;
+  background-size: 55%;
   width: 100%;
 }
 body .l-types__reading .l-wrapper__bg .l-types__wrapper {
