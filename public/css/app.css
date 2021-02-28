@@ -10027,10 +10027,6 @@ body .l-landing__hero {
   height: 100%;
   margin: 0 auto;
 }
-body .l-landing__hero .img-fluid {
-  width: 100% !important;
-  height: 1000px !important;
-}
 body .l-landing__hero .l-div__top {
   position: absolute;
   top: 0;
@@ -10581,7 +10577,7 @@ ul {
 
 .btn-warning {
   background-color: #FE9017 !important;
-  border-color: #FE9017 !important;
+  border-color: #fe8e16 !important;
   border-radius: 10px;
 }
 
