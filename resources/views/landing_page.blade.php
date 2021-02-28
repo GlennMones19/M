@@ -45,6 +45,7 @@
             <p>Do you have questions that need the help of a psychic to answer? Do you need that answer right away without dawdle? Text our Psychics is an instant messaging psychic reading site that has all you need. With professional psychics available round the clock, you can get readings and answers to your questions right where you are. We do not only offer comfortability, our services are topnotch and affordable as you only get to pay per question. Our advisors are ready to give insights to your questions about relationship, finance, love, career, and the sphere of your life. Your questions and readings are safe with us as we have 100% advisor-client confidentiality.<br>
             What are you waiting for? Our psychics are ready to offer the clarity and guidance you need. 
             </p>
+            <button class="btn btn-warning text-white register-btn mt-5">Register Now</button>
         </div>
         <div class="l-welcome__top__rated">
             <h1 class="text-center">OUR TOP RATED<br>

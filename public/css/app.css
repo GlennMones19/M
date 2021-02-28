@@ -10598,6 +10598,14 @@ ul {
   color: #FFFFFF;
 }
 
+.register-btn {
+  padding: 11px 0 !important;
+  color: #FFFFFF;
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .fade2 {
   transform: scale(0.9);
   opacity: 0;
