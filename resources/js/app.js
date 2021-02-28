@@ -1,13 +1,10 @@
 require('./bootstrap');
 
-$(function() {
-    $("body").mouseleave(function() {
+
+function onMouseOut(event) {
+    if (event.clientY < 0) {
+        document.removeEventListener("mouseout", onMouseOut);
         $("#myModal").modal();
-    });
-});
-
-window.onbeforeunload = leave;
-
-function leave() {
-    return "You are leaving the site. Are you sure?";
+    }
 }
+document.addEventListener("mouseout", onMouseOut);
