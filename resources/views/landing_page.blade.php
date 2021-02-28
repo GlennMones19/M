@@ -198,8 +198,14 @@
                 <p>WHY OUR<br>
                 PSYCHICS ?</p>
                 <p>
-                Two words, seasoned psychics. Our psychics do not only have years of experience but are also available 24/7 to attend to your needs. Regardless of your preference or choice, you will always find the perfect psychic here at Text Our Psychics. Our watchword is authenticity and confidentiality so readings are not only accurate but stays between you and your psychics. If on the other hand, you don't want to give your name, that won't change a thing as our psychics only need to connect to your energy. Before you know it, you will have clarity like never before. <br>
-                Our psychics possess the power of clairvoyance, and a look into your question might be just what you need for a better life. 
+                Two words, seasoned psychics. Our psychics do not only have years of experience but are
+                 also available 24/7 to attend to your needs. Regardless of your preference or choice, 
+                 you will always find the perfect psychic here at Text Our Psychics. Our watchword is 
+                 authenticity and confidentiality so readings are not only accurate but stays between you 
+                 and your psychics. Before you know it, you will have
+                 clarity like never before. <br>
+                Our psychics possess the power of clairvoyance, and a look into your question might 
+                be just what you need for a better life. 
                 </p>
             </div>
             <img src="{{ asset("./img/why_are.png") }}" alt="">
