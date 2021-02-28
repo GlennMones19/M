@@ -10027,6 +10027,10 @@ body .l-landing__hero {
   height: 100%;
   margin: 0 auto;
 }
+body .l-landing__hero .hero-img {
+  width: 110%;
+  height: 1000px;
+}
 body .l-landing__hero .l-div__top {
   position: absolute;
   top: 0;
@@ -10604,4 +10608,36 @@ ul {
 .fade2.show {
   opacity: 1;
   transform: scale(1);
+  -webkit-animation: shake 0.75s;
+          animation: shake 0.75s;
+}
+
+@-webkit-keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
