@@ -10704,21 +10704,19 @@ body .l-why__psychics .l-why__wrapper {
     text-align: center;
   }
 }
-@media screen and (max-width: 767px) {
-  body .l-why__psychics .l-why__wrapper {
-    padding: 0 0 36px 0;
-  }
-}
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 767px) {
   body .l-why__psychics .l-why__wrapper {
     padding-right: 44px;
     padding-left: 44px;
     padding-top: 30px;
+    padding-bottom: 36px;
   }
 }
 @media screen and (max-width: 390px) {
   body .l-why__psychics .l-why__wrapper {
-    padding: 30px 0 0 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 30px;
   }
 }
 body .l-why__psychics .l-why__wrapper > .l-psychics__text {
@@ -10730,11 +10728,6 @@ body .l-why__psychics .l-why__wrapper > .l-psychics__text {
   body .l-why__psychics .l-why__wrapper > .l-psychics__text {
     width: 100%;
     left: 0;
-    padding: 0 20px;
-  }
-}
-@media screen and (max-width: 390px) {
-  body .l-why__psychics .l-why__wrapper > .l-psychics__text {
     padding: 0 30px;
   }
 }
