@@ -10109,17 +10109,17 @@ body .l-landing__hero .l-content__container .l-available__box {
 }
 @media screen and (max-width: 445px) {
   body .l-landing__hero .l-content__container .l-available__box {
-    left: 5px;
+    margin-left: 5px;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   body .l-landing__hero .l-content__container .l-available__box {
-    left: 65px;
+    margin-left: 65px;
   }
 }
 @media screen and (max-width: 767px) and (min-width: 446px) {
   body .l-landing__hero .l-content__container .l-available__box {
-    left: 30px;
+    margin-left: 30px;
   }
 }
 body .l-landing__hero .l-content__container .l-available__box .l-available {
@@ -10163,7 +10163,7 @@ body .l-landing__hero .l-content__container .l-free__text > p {
 }
 @media screen and (max-width: 767px) and (min-width: 446px) {
   body .l-landing__hero .l-content__container .l-free__text > p {
-    left: 30px;
+    margin-left: 30px;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
@@ -10173,7 +10173,7 @@ body .l-landing__hero .l-content__container .l-free__text > p {
 }
 @media screen and (max-width: 390px) {
   body .l-landing__hero .l-content__container .l-free__text > p {
-    left: 5px;
+    margin-left: 5px;
   }
 }
 body .l-landing__hero .l-content__container .l-loginregister {
@@ -10491,7 +10491,7 @@ body .l-why__text .l-why__wrapper .l-why__ratings {
 }
 @media screen and (max-width: 390px) {
   body .l-why__text .l-why__wrapper .l-why__ratings {
-    left: 0;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 1086px) {
@@ -10791,6 +10791,7 @@ body .footer {
 @media screen and (max-width: 518px) {
   body .footer {
     padding-top: 0;
+    background-size: 100% 100%;
   }
 }
 @media screen and (min-width: 1921px) {
@@ -10845,6 +10846,16 @@ body .footer .footer__wrapper .nav-footer {
   top: 43px;
   right: 53px;
 }
+@media screen and (max-width: 390px) {
+  body .footer .footer__wrapper .nav-footer {
+    right: 0;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 600px) {
+  body .footer .footer__wrapper .nav-footer {
+    right: 0;
+  }
+}
 body .footer .footer__wrapper .nav-footer > div > a {
   font-size: 18px;
   font-family: "Libre Baskerville", serif;
@@ -10878,6 +10889,11 @@ body .footer .footer__wrapper .nav-footer > div:nth-child(2) {
 @media screen and (max-width: 926px) {
   body .footer .footer__wrapper .nav-footer > div:nth-child(2) {
     left: 86px;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 600px) {
+  body .footer .footer__wrapper .nav-footer > div:nth-child(2) {
+    left: 15px;
   }
 }
 

@@ -95,13 +95,13 @@ body {
                     position: relative;
                     top: 90px;
                     @media screen and (max-width: 445px) {
-                       left: 5px;
+                       margin-left: 5px;
                     }
                     @media screen and (max-width: 1200px) and (min-width: 768px) {
-                       left: 65px;
+                       margin-left: 65px;
                     }
                     @media screen and (max-width: 767px) and (min-width: 446px) {
-                       left: 30px;
+                       margin-left: 30px;
                     }
                     .l-available {
                         position: absolute;
@@ -146,13 +146,13 @@ body {
                         color: $fc-blk;
                         padding-top: 40px;
                         @media screen and (max-width: 767px) and (min-width: 446px) {
-                            left: 30px;
+                            margin-left: 30px;
                         }
                          @media screen and (max-width: 1200px) and (min-width: 768px) {
                             margin-left: 60px;
                         }
                         @media screen and (max-width: 390px) {
-                            left: 5px;
+                            margin-left: 5px;
                         }
                     }
                 }
@@ -443,7 +443,7 @@ body {
                         justify-content: center!important;
                     }
                     @media screen and (max-width: 390px) {
-                       left: 0;
+                       margin-left: 0;
                     }
                     &>li {
                         @media screen and (max-width: 1086px) {
@@ -697,6 +697,7 @@ body {
             width: 100%;
             @media screen and (max-width: 518px) {
                 padding-top: 0;
+                background-size: 100% 100%;
             }
             @media screen and (min-width: 1921px) {
                 background-size: 100% 100%;
@@ -714,6 +715,7 @@ body {
                     @media screen and (max-width: 518px) {
                         margin-top: 40px;
                         margin-bottom: 0;
+
                     }
                 }
                 .offers {
@@ -744,6 +746,12 @@ body {
                     position: relative;
                     top: 43px;
                     right: 53px;
+                    @media screen and (max-width: 390px) {
+                        right: 0;
+                    }
+                    @media screen and (min-width: 391px) and (max-width: 600px) {
+                        right: 0;
+                    }
                     &>div {
                         &>a {
                             font-size: 18px;
@@ -779,6 +787,9 @@ body {
                             left: 179px;
                             @media screen and (max-width: 926px) {
                                 left: 86px;
+                            }
+                            @media screen and (min-width: 391px) and (max-width: 600px) {
+                                left: 15px;
                             }
                         }
                     }
