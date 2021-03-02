@@ -2,13 +2,11 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-        overflow-x: hidden!important;
         width: 100%;
         height: 100%;
-        @media screen and (max-width: 1535px) and (orientation: landscape) {
-            max-width: 100%;
+        overflow-x: hidden;
+        @media screen and (max-width: 1308px) {
             width: 100%;
-            height: 100%;
         }
         .l-landing__hero {
             position: relative;
@@ -41,6 +39,10 @@
                 margin: 0 auto;
                 width: 100%;
                 .l-header__nav {
+                    @media screen and (max-width: 508px) {
+                       position: relative;
+                       top: 40px;
+                    }
                     &>img {
                         max-width: 158.84px;
                         width: 100%;
@@ -52,6 +54,9 @@
                         }
                         @media screen and (max-width: 1200px) and (min-width: 768px) {
                             margin-left: 50px;
+                        }
+                        @media screen and (max-width: 390px) {
+                            margin-left: 5px;
                         }
                     }
                     ul {
@@ -89,11 +94,14 @@
                     background-color: $bg-base;
                     position: relative;
                     top: 90px;
-                    @media screen and (max-width: 767px) {
-                        left: 65px;
+                    @media screen and (max-width: 445px) {
+                       left: 5px;
                     }
-                     @media screen and (max-width: 1200px) and (min-width: 768px) {
+                    @media screen and (max-width: 1200px) and (min-width: 768px) {
                        left: 65px;
+                    }
+                    @media screen and (max-width: 767px) and (min-width: 446px) {
+                       left: 30px;
                     }
                     .l-available {
                         position: absolute;
@@ -131,29 +139,32 @@
                     &>p {
                         position: relative;
                         top: 67.4px;
-                        left: 15px;
+                        margin-left: 15px;
                         line-height: 39px;
                         font-family: $ff-poppins;
                         font-size: $fs-31;
                         color: $fc-blk;
                         padding-top: 40px;
-                        @media screen and (max-width: 767px) {
-                            left: 60px;
+                        @media screen and (max-width: 767px) and (min-width: 446px) {
+                            left: 30px;
                         }
                          @media screen and (max-width: 1200px) and (min-width: 768px) {
-                            left: 60px;
+                            margin-left: 60px;
+                        }
+                        @media screen and (max-width: 390px) {
+                            left: 5px;
                         }
                     }
                 }
                 .l-loginregister {
                     position: relative;
                     top: 46px;
-                    @media screen and (max-width: 767px) {
-                        left: 40px;
-                    }
                      @media screen and (max-width: 1200px) and (min-width: 768px) {
-                            left: 40px;
-                        }
+                        margin-left: 40px;
+                    }
+                    @media screen and (max-width: 532px) {
+                        left: 0;
+                    }
                     .l-btn__group {
                         &>button {
                             &:nth-child(1) {
@@ -184,6 +195,10 @@
             margin-bottom: 178px;
             @media screen and (max-width: 1126px) {
                 padding: 0 50px;
+            }
+            @media screen and (max-width: 390px) {
+                padding: 0 5px;
+                margin-bottom: 95px;
             }
             @media screen and (min-width: 1920px) {
                 background-size: 100% 100%;
@@ -228,6 +243,7 @@
                     line-height: 42px;
                     @media screen and (max-width: 767px) {
                         font-size: 16px;
+                        text-align: justify;
                     }
                 }
             }
@@ -386,6 +402,9 @@
                     position: relative;
                     top: 94px;
                     left: 25px;
+                    @media screen and (max-width: 390px) {
+                       left: 0;
+                    }
                     &>button {
                         padding: 15px;
                         font-weight: bold;
@@ -418,10 +437,13 @@
                 }
                 .l-why__ratings {
                     position: relative;
-                    left: 16px;
+                    margin-left: 16px;
                     top: 1px;
                     @media screen and (max-width: 1086px) {
                         justify-content: center!important;
+                    }
+                    @media screen and (max-width: 390px) {
+                       left: 0;
                     }
                     &>li {
                         @media screen and (max-width: 1086px) {
@@ -499,16 +521,23 @@
                         font-weight: 400;
                         font-family: $ff;
                         margin-top: 20px;
+                        @media screen and (max-width: 1200px) {
+                            text-align: justify;
+                        }
+                        @media screen and (max-width: 390px) {
+                           font-size: 14px;
+                           text-align: justify;
+                        }
                     }
                 }
                 &>img {
                     position: relative;
-                    left: 143px;
+                    padding-left: 143px;
                     margin-top: 37px;
                     max-width: 682px;
                     width: 100%;
                     @media screen and (max-width: 1013px) {
-                        left: 34px;
+                        padding-left: 34px;
                     }
                 }
             }
@@ -554,6 +583,9 @@
                             @media screen and (max-width: 767px) {
                                 padding: 50px;
                             }
+                            @media screen and (max-width: 390px) {
+                                padding: 0 50px;
+                            }
                         }
                         .l-reading__text {
                             position: relative;
@@ -576,6 +608,12 @@
                                 font-weight: 400;
                                 font-family: $ff;
                                 text-align: justify;
+                                @media screen and (max-width: 1200px) {
+                                    text-align: justify;
+                                }
+                                @media screen and (max-width: 390px) {
+                                    font-size: 14px;
+                                }
                             }
                         }
                     }
@@ -598,6 +636,9 @@
                     padding-left: 44px;
                     padding-top: 30px;
                 }
+                @media screen and (max-width: 390px) {
+                    padding: 30px 0 0 0;
+                }
                 &>.l-psychics__text {
                     position: relative;
                     left: 28px;
@@ -606,6 +647,9 @@
                         width: 100%;
                         left: 0;
                         padding: 0 20px;
+                    }
+                    @media screen and (max-width: 390px) {
+                       padding: 0 30px;
                     }
                     p:nth-child(1) {
                         font-size: 40px;
@@ -621,6 +665,13 @@
                         font-weight: 400;
                         font-family: $ff;
                         line-height: 35px;
+                        @media screen and (max-width: 390px) {
+                            font-size: 14px;
+                            text-align: justify;
+                        }
+                        @media screen and (max-width: 1200px) {
+                            text-align: justify;
+                        }
                     }
                 }
                 &>img {
@@ -628,7 +679,7 @@
                     width: 100%;
                     position: relative;
                     top: -30px;
-                    left: 125px;
+                    left: 44px;
                     @media screen and (max-width: 1013px) {
                         top: 0;
                         left: 0;

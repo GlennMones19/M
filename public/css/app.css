@@ -10009,15 +10009,13 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden !important;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
-@media screen and (max-width: 1535px) and (orientation: landscape) {
+@media screen and (max-width: 1308px) {
   body {
-    max-width: 100%;
     width: 100%;
-    height: 100%;
   }
 }
 body .l-landing__hero {
@@ -10052,6 +10050,12 @@ body .l-landing__hero .l-content__container {
   margin: 0 auto;
   width: 100%;
 }
+@media screen and (max-width: 508px) {
+  body .l-landing__hero .l-content__container .l-header__nav {
+    position: relative;
+    top: 40px;
+  }
+}
 body .l-landing__hero .l-content__container .l-header__nav > img {
   max-width: 158.84px;
   width: 100%;
@@ -10067,6 +10071,11 @@ body .l-landing__hero .l-content__container .l-header__nav > img {
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   body .l-landing__hero .l-content__container .l-header__nav > img {
     margin-left: 50px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .l-landing__hero .l-content__container .l-header__nav > img {
+    margin-left: 5px;
   }
 }
 body .l-landing__hero .l-content__container .l-header__nav ul {
@@ -10098,14 +10107,19 @@ body .l-landing__hero .l-content__container .l-available__box {
   position: relative;
   top: 90px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 445px) {
   body .l-landing__hero .l-content__container .l-available__box {
-    left: 65px;
+    left: 5px;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   body .l-landing__hero .l-content__container .l-available__box {
     left: 65px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 446px) {
+  body .l-landing__hero .l-content__container .l-available__box {
+    left: 30px;
   }
 }
 body .l-landing__hero .l-content__container .l-available__box .l-available {
@@ -10140,35 +10154,40 @@ body .l-landing__hero .l-content__container .l-available__box .l-available > p {
 body .l-landing__hero .l-content__container .l-free__text > p {
   position: relative;
   top: 67.4px;
-  left: 15px;
+  margin-left: 15px;
   line-height: 39px;
   font-family: "Poppins", sans-serif;
   font-size: 31px;
   color: #323232;
   padding-top: 40px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 446px) {
   body .l-landing__hero .l-content__container .l-free__text > p {
-    left: 60px;
+    left: 30px;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   body .l-landing__hero .l-content__container .l-free__text > p {
-    left: 60px;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .l-landing__hero .l-content__container .l-free__text > p {
+    left: 5px;
   }
 }
 body .l-landing__hero .l-content__container .l-loginregister {
   position: relative;
   top: 46px;
 }
-@media screen and (max-width: 767px) {
-  body .l-landing__hero .l-content__container .l-loginregister {
-    left: 40px;
-  }
-}
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   body .l-landing__hero .l-content__container .l-loginregister {
-    left: 40px;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 532px) {
+  body .l-landing__hero .l-content__container .l-loginregister {
+    left: 0;
   }
 }
 body .l-landing__hero .l-content__container .l-loginregister .l-btn__group > button:nth-child(1) {
@@ -10196,6 +10215,12 @@ body .l-welcome {
 @media screen and (max-width: 1126px) {
   body .l-welcome {
     padding: 0 50px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .l-welcome {
+    padding: 0 5px;
+    margin-bottom: 95px;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -10254,6 +10279,7 @@ body .l-welcome .l-welcome__text > p {
 @media screen and (max-width: 767px) {
   body .l-welcome .l-welcome__text > p {
     font-size: 16px;
+    text-align: justify;
   }
 }
 body .l-welcome .l-welcome__top__rated {
@@ -10417,6 +10443,11 @@ body .l-welcome .l-welcome__top__rated .l-view__more {
   top: 94px;
   left: 25px;
 }
+@media screen and (max-width: 390px) {
+  body .l-welcome .l-welcome__top__rated .l-view__more {
+    left: 0;
+  }
+}
 body .l-welcome .l-welcome__top__rated .l-view__more > button {
   padding: 15px;
   font-weight: bold;
@@ -10450,12 +10481,17 @@ body .l-why__text .l-why__wrapper > h1 {
 }
 body .l-why__text .l-why__wrapper .l-why__ratings {
   position: relative;
-  left: 16px;
+  margin-left: 16px;
   top: 1px;
 }
 @media screen and (max-width: 1086px) {
   body .l-why__text .l-why__wrapper .l-why__ratings {
     justify-content: center !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .l-why__text .l-why__wrapper .l-why__ratings {
+    left: 0;
   }
 }
 @media screen and (max-width: 1086px) {
@@ -10539,16 +10575,27 @@ body .l-what__can .l-what__wrapper .l-what__text p:nth-child(2) {
   font-family: "Libre Baskerville", serif;
   margin-top: 20px;
 }
+@media screen and (max-width: 1200px) {
+  body .l-what__can .l-what__wrapper .l-what__text p:nth-child(2) {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .l-what__can .l-what__wrapper .l-what__text p:nth-child(2) {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
 body .l-what__can .l-what__wrapper > img {
   position: relative;
-  left: 143px;
+  padding-left: 143px;
   margin-top: 37px;
   max-width: 682px;
   width: 100%;
 }
 @media screen and (max-width: 1013px) {
   body .l-what__can .l-what__wrapper > img {
-    left: 34px;
+    padding-left: 34px;
   }
 }
 body .l-types__reading {
@@ -10607,6 +10654,11 @@ body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content > img 
     padding: 50px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content > img {
+    padding: 0 50px;
+  }
+}
 body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content .l-reading__text {
   position: relative;
   bottom: 20px;
@@ -10632,6 +10684,16 @@ body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content .l-rea
   font-family: "Libre Baskerville", serif;
   text-align: justify;
 }
+@media screen and (max-width: 1200px) {
+  body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content .l-reading__text p:nth-child(2) {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .l-types__reading .l-wrapper__bg .l-types__wrapper .l-types__content .l-reading__text p:nth-child(2) {
+    font-size: 14px;
+  }
+}
 body .l-why__psychics .l-why__wrapper {
   padding: 100px 0 36px;
 }
@@ -10654,6 +10716,11 @@ body .l-why__psychics .l-why__wrapper {
     padding-top: 30px;
   }
 }
+@media screen and (max-width: 390px) {
+  body .l-why__psychics .l-why__wrapper {
+    padding: 30px 0 0 0;
+  }
+}
 body .l-why__psychics .l-why__wrapper > .l-psychics__text {
   position: relative;
   left: 28px;
@@ -10664,6 +10731,11 @@ body .l-why__psychics .l-why__wrapper > .l-psychics__text {
     width: 100%;
     left: 0;
     padding: 0 20px;
+  }
+}
+@media screen and (max-width: 390px) {
+  body .l-why__psychics .l-why__wrapper > .l-psychics__text {
+    padding: 0 30px;
   }
 }
 body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(1) {
@@ -10683,12 +10755,23 @@ body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(2) {
   font-family: "Libre Baskerville", serif;
   line-height: 35px;
 }
+@media screen and (max-width: 390px) {
+  body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(2) {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body .l-why__psychics .l-why__wrapper > .l-psychics__text p:nth-child(2) {
+    text-align: justify;
+  }
+}
 body .l-why__psychics .l-why__wrapper > img {
   max-width: 470px;
   width: 100%;
   position: relative;
   top: -30px;
-  left: 125px;
+  left: 44px;
 }
 @media screen and (max-width: 1013px) {
   body .l-why__psychics .l-why__wrapper > img {
