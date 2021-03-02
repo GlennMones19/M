@@ -684,6 +684,9 @@ body {
                         top: 0;
                         left: 0;
                     }
+                    @media screen and (max-width: 390px) {
+                        padding: 0 20px;
+                    }
                 }
             }
         }

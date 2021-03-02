@@ -10779,6 +10779,11 @@ body .l-why__psychics .l-why__wrapper > img {
     left: 0;
   }
 }
+@media screen and (max-width: 390px) {
+  body .l-why__psychics .l-why__wrapper > img {
+    padding: 0 20px;
+  }
+}
 body .footer {
   background-image: url(/images/footer.jpg?58fa4fbb3e9eab61dc4246b845921acf);
   background-repeat: no-repeat;
