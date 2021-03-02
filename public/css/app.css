@@ -10005,6 +10005,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+* {
+  outline: 1px solid red;
+}
+
 body {
   padding: 0;
   margin: 0;
