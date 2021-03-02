@@ -10005,10 +10005,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-* {
-  outline: 1px solid red;
-}
-
 body {
   padding: 0;
   margin: 0;
@@ -10445,7 +10441,7 @@ body .l-welcome .l-welcome__top__rated .l-toprated__img > li:nth-child(2) > dl >
 body .l-welcome .l-welcome__top__rated .l-view__more {
   position: relative;
   top: 94px;
-  left: 25px;
+  margin-left: 25px;
 }
 @media screen and (max-width: 390px) {
   body .l-welcome .l-welcome__top__rated .l-view__more {
