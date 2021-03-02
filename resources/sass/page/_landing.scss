@@ -47,6 +47,12 @@
                         height: 78.05px;
                         margin-top: 33px;
                         margin-left: 4px;
+                        @media screen and (max-width: 767px) {
+                            margin-left: 50px;
+                        }
+                        @media screen and (max-width: 1200px) and (min-width: 768px) {
+                            margin-left: 50px;
+                        }
                     }
                     ul {
                         margin: 67px 13px;
@@ -83,6 +89,12 @@
                     background-color: $bg-base;
                     position: relative;
                     top: 90px;
+                    @media screen and (max-width: 767px) {
+                        left: 65px;
+                    }
+                     @media screen and (max-width: 1200px) and (min-width: 768px) {
+                       left: 65px;
+                    }
                     .l-available {
                         position: absolute;
                         top: 42px;
@@ -125,11 +137,23 @@
                         font-size: $fs-31;
                         color: $fc-blk;
                         padding-top: 40px;
+                        @media screen and (max-width: 767px) {
+                            left: 60px;
+                        }
+                         @media screen and (max-width: 1200px) and (min-width: 768px) {
+                            left: 60px;
+                        }
                     }
                 }
                 .l-loginregister {
                     position: relative;
                     top: 46px;
+                    @media screen and (max-width: 767px) {
+                        left: 40px;
+                    }
+                     @media screen and (max-width: 1200px) and (min-width: 768px) {
+                            left: 40px;
+                        }
                     .l-btn__group {
                         &>button {
                             &:nth-child(1) {
@@ -158,6 +182,12 @@
             background-position: 55% 74%;
             background-size: auto;
             margin-bottom: 178px;
+            @media screen and (max-width: 1126px) {
+                padding: 0 50px;
+            }
+            @media screen and (min-width: 1920px) {
+                background-size: 100% 100%;
+            }
             .l-welcome__text {
                 max-width: 1110px;
                 width: 100%;
@@ -174,6 +204,9 @@
                 @media screen and (max-width: 1126px) {
                     padding: 50px 100px;
                 }
+                @media screen and (max-width: 767px) {
+                    padding: 50px 20px;
+                }
                 &>h3 {
                     position: relative;
                     top: 23px;
@@ -181,6 +214,9 @@
                     font-family: $ff;
                     font-size: $fs-35;
                     font-weight: bold;
+                    @media screen and (max-width: 767px) {
+                       font-size: 28px;
+                    }
                 }
                 &>p {
                     font-family: $ff;
@@ -190,6 +226,9 @@
                     top: 20px;
                     padding: 5px 10px;
                     line-height: 42px;
+                    @media screen and (max-width: 767px) {
+                        font-size: 16px;
+                    }
                 }
             }
             .l-welcome__top__rated {
@@ -209,13 +248,23 @@
                     position: relative;
                     top: 62px;
                     left: 22px;
-                    @media screen and (max-width: 1109px) {
+                    @media screen and (max-width: 1126px) {
                         justify-content: center!important;
+                    }
+                    @media screen and (max-width: 767px) {
+                        max-width: 100%;
+                        width: 100%;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
                     }
                     &>li {
                         margin-bottom: 0.3rem;
-                        @media screen and (max-width: 1109px) {
-                            margin: 0 30px!important;
+                        @media screen and (max-width: 1126px) {
+                            margin: 0 10px!important;
+                        }
+                        @media screen and (max-width: 767px) {
+                            margin: 0 2px;
                         }
                         &:nth-child(1) {
                             &>dl {
@@ -226,6 +275,13 @@
                                         width: 100%;
                                         height: 450px;
                                     }
+                                    @media screen and (max-width: 767px) {
+                                        &>img {
+                                            max-width: 190px;
+                                            width: 100%;
+                                            height: 200px;
+                                        }
+                                    }
                                 }
                                 &>dd {
                                     position: absolute;
@@ -234,12 +290,19 @@
                                         font-family: $ff;
                                         font-size: $fs-30;
                                         font-weight: 400;
+                                        @media screen and (max-width: 767px) {
+                                            font-size: $fs-16;
+                                        }
                                     }
                                     .status {
                                         font-size: $fs-20;
                                         font-weight: 400!important;
                                         font-family: $ff;
                                         margin-left: 12px;
+                                        @media screen and (max-width: 767px) {
+                                            font-size: 14px;
+                                            margin-left: 0;
+                                        }
                                         .dot-green {
                                             background-color: #13E831;
                                             width: 14px;
@@ -251,6 +314,13 @@
                                     &>button {
                                         padding: 17px;
                                         font-family: $ff;
+                                    }
+                                    @media screen and (max-width: 767px) {
+                                        &>button {
+                                            padding: 5px 17px;
+                                            max-width: 150px;
+                                            width: 100%;
+                                        }
                                     }
                                 }
                             }
@@ -268,6 +338,13 @@
                                         width: 100%;
                                         height: 450px;
                                     }
+                                    @media screen and (max-width: 767px) {
+                                        &>img {
+                                            max-width: 190px;
+                                            width: 100%;
+                                            height: 200px;
+                                        }
+                                    }
                                 }
                                 &>dd {
                                     position: absolute;
@@ -276,12 +353,19 @@
                                         font-family: $ff;
                                         font-size: $fs-30;
                                         font-weight: 400;
+                                        @media screen and (max-width: 767px) {
+                                            font-size: $fs-16;
+                                        }
                                     }
                                     .status {
                                         font-size: $fs-20;
                                         font-weight: 400!important;
                                         font-family: $ff;
                                         margin-left: 12px;
+                                        @media screen and (max-width: 767px) {
+                                            font-size: 14px;
+                                            margin: 0;
+                                        }
                                         .dot-green {
                                             background-color: #13E831;
                                             width: 14px;
@@ -318,6 +402,9 @@
             background-color: #FFECD7;
             padding-top: 78px;
             padding-bottom: 128px;
+            @media screen and (max-width: 767px) {
+                padding-bottom: 80px;
+            }
             .l-why__wrapper {
                 max-width: 1131px;
                 width: 100%;
@@ -379,7 +466,7 @@
         .l-what__can {
             padding-bottom: 34px;
             .l-what__wrapper {
-                @media screen and (max-width: 926px) {
+                @media screen and (max-width: 1013px) {
                     display: flex;
                     flex-direction: column;
                     text-align: center;
@@ -389,6 +476,16 @@
                     top: 25px;
                     left: 112px;
                     width: 40%;
+                    @media screen and (max-width: 767px) {
+                        width: 100%;
+                        left: 0;
+                        padding: 0 20px;
+                    }
+                     @media screen and (max-width: 1013px) {
+                        width: 100%;
+                        left: 0;
+                        padding: 0 20px;
+                    }
                     p:nth-child(1) {
                         font-size: 40px;
                         font-weight: bold;
@@ -410,6 +507,9 @@
                     margin-top: 37px;
                     max-width: 682px;
                     width: 100%;
+                    @media screen and (max-width: 1013px) {
+                        left: 34px;
+                    }
                 }
             }
         }
@@ -427,27 +527,45 @@
                 @media screen and (max-width: 1679px) {
                     background-size: 52%;
                 }
+                @media screen and (max-width: 1200px) {
+                    background: none;
+                }
                 .l-types__wrapper {
                     position: relative;
                     top: 68px;
                     left: -63px;
                     right: 0;
                     margin: 0 auto;
-                    @media screen and (max-width: 926px) {
-                        display: flex;
-                        flex-direction: column;
-                        text-align: center;
+                    @media screen and (max-width: 1013px) {
+                        left: 0;
+                    }
+                    @media screen and (max-width: 1200px) and (min-width: 1013px) {
+                        padding: 0 100px;
                     }
                     .l-types__content {
+                        @media screen and (max-width: 1013px) {
+                            display: flex!important;
+                            flex-direction: column!important;
+                            text-align: center!important;
+                        }
                         &>img {
                             max-width: 595.85px;
                             width: 100%;
+                            @media screen and (max-width: 767px) {
+                                padding: 50px;
+                            }
                         }
                         .l-reading__text {
                             position: relative;
                             bottom: 20px;
                             left: 92px;
                             width: 40%;
+                            @media screen and (max-width: 1013px) {
+                                width: 100%;
+                                left: 0;
+                                padding: 0 30px;
+                                top: 30px;
+                            }
                             p:nth-child(1) {
                                 font-size: 40px;
                                 font-weight: bold;
@@ -467,15 +585,28 @@
         .l-why__psychics {
             .l-why__wrapper {
                 padding: 100px 0 36px;
-                @media screen and (max-width: 926px) {
+                @media screen and (max-width: 1013px) {
                     display: flex;
                     flex-direction: column;
                     text-align: center;
+                }
+                @media screen and (max-width: 767px) {
+                    padding: 0 0 36px 0;
+                }
+                @media screen and (max-width: 1200px) {
+                    padding-right: 44px;
+                    padding-left: 44px;
+                    padding-top: 30px;
                 }
                 &>.l-psychics__text {
                     position: relative;
                     left: 28px;
                     width: 40%;
+                    @media screen and (max-width: 1013px) {
+                        width: 100%;
+                        left: 0;
+                        padding: 0 20px;
+                    }
                     p:nth-child(1) {
                         font-size: 40px;
                         font-weight: bold;
@@ -498,6 +629,10 @@
                     position: relative;
                     top: -30px;
                     left: 125px;
+                    @media screen and (max-width: 1013px) {
+                        top: 0;
+                        left: 0;
+                    }
                 }
             }
         }
@@ -508,6 +643,13 @@
             background-size: auto;
             padding-top: 60px;
             overflow: hidden;
+            width: 100%;
+            @media screen and (max-width: 518px) {
+                padding-top: 0;
+            }
+            @media screen and (min-width: 1921px) {
+                background-size: 100% 100%;
+            }
             .footer__wrapper {
                 max-width: 100%;
                 width: 100%;
@@ -518,6 +660,10 @@
                     display: flex;
                     margin-top: -7px;
                     margin-bottom: 20px;
+                    @media screen and (max-width: 518px) {
+                        margin-top: 40px;
+                        margin-bottom: 0;
+                    }
                 }
                 .offers {
                     font-size: 16px;
@@ -580,6 +726,9 @@
                         &:nth-child(2) {
                             position: relative;
                             left: 179px;
+                            @media screen and (max-width: 926px) {
+                                left: 86px;
+                            }
                         }
                     }
                 }
