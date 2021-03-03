@@ -10202,6 +10202,12 @@ body .l-landing__hero .l-content__container .l-loginregister .l-btn__group > but
   font-size: 20px;
   font-weight: bold;
 }
+@media screen and (max-width: 767px) {
+  body .l-landing__hero .l-content__container .l-loginregister .l-btn__group > button:nth-child(1) {
+    padding: 6px !important;
+    width: 165px !important;
+  }
+}
 body .l-landing__hero .l-content__container .l-loginregister .l-btn__group > button:nth-child(2) {
   padding: 11px 0 !important;
   background-color: #FFFFFF !important;
@@ -10209,6 +10215,12 @@ body .l-landing__hero .l-content__container .l-loginregister .l-btn__group > but
   font-family: "Libre Baskerville", serif;
   font-size: 20px;
   font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  body .l-landing__hero .l-content__container .l-loginregister .l-btn__group > button:nth-child(2) {
+    padding: 6px !important;
+    width: 165px !important;
+  }
 }
 body .l-welcome {
   background-image: url(/images/section2-bg.png?e80f88aeed270ce6fd258e343431345c);
@@ -10239,19 +10251,19 @@ body .l-welcome .l-welcome__text {
   position: relative;
   top: -123px;
 }
-@media screen and (max-width: 1146px) {
+@media screen and (max-width: 1146px) and (min-width: 767px) {
   body .l-welcome .l-welcome__text {
     top: -75px;
   }
 }
-@media screen and (max-width: 1126px) {
-  body .l-welcome .l-welcome__text {
-    padding: 50px 100px;
-  }
-}
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 454px) {
   body .l-welcome .l-welcome__text {
     padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 453px) {
+  body .l-welcome .l-welcome__text {
+    padding: 50px 10px;
   }
 }
 body .l-welcome .l-welcome__text > h3 {

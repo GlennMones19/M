@@ -224,5 +224,5 @@
             <p class="reserved">© 2021 All rights reserved.</p>
         </div>
     </footer>
-    {{-- @include("popup") --}}
+    @include("popup")
 @endsection

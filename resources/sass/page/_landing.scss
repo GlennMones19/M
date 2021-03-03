@@ -178,6 +178,10 @@ body {
                                 font-family: $ff;
                                 font-size: $fs-20;
                                 font-weight: bold;
+                                @media screen and (max-width: 767px) {
+                                    padding: 6px!important;
+                                    width: 165px!important;
+                                }
                             }
                             &:nth-child(2) {
                                 padding: 11px 0!important;
@@ -186,6 +190,10 @@ body {
                                 font-family: $ff;
                                 font-size: $fs-20;
                                 font-weight: bold;
+                                @media screen and (max-width: 767px) {
+                                    padding: 6px!important;
+                                    width: 165px!important;
+                                }
                             }
                         }
                     }
@@ -215,14 +223,14 @@ body {
                 padding: 57px 60px;
                 position: relative;
                 top: -123px;
-                @media screen and (max-width: 1146px) {
+                @media screen and (max-width: 1146px) and (min-width: 767px) {
                     top: -75px;
                 }
-                @media screen and (max-width: 1126px) {
-                    padding: 50px 100px;
-                }
-                @media screen and (max-width: 767px) {
+                @media screen and (max-width: 767px) and (min-width: 454px) {
                     padding: 50px 20px;
+                }
+                @media screen and (max-width: 453px) {
+                    padding: 50px 10px;
                 }
                 &>h3 {
                     position: relative;
