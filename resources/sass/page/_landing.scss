@@ -17,8 +17,11 @@ body {
             .hero-img {
                 width: 100.25%;
                 height: 1000px;
-                @media screen and (max-width: 767px) {
+                @media screen and (max-width: 767px) and (min-width: 454px) {
                     height: 815px;
+                }
+                @media screen and (max-width: 453px) {
+                    height: 715px;
                 }
             }
             .l-div__top {
@@ -231,6 +234,7 @@ body {
                 }
                 @media screen and (max-width: 453px) {
                     padding: 50px 10px;
+                    top: -32px;
                 }
                 &>h3 {
                     position: relative;

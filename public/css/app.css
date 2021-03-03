@@ -10029,9 +10029,14 @@ body .l-landing__hero .hero-img {
   width: 100.25%;
   height: 1000px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 454px) {
   body .l-landing__hero .hero-img {
     height: 815px;
+  }
+}
+@media screen and (max-width: 453px) {
+  body .l-landing__hero .hero-img {
+    height: 715px;
   }
 }
 body .l-landing__hero .l-div__top {
@@ -10264,6 +10269,7 @@ body .l-welcome .l-welcome__text {
 @media screen and (max-width: 453px) {
   body .l-welcome .l-welcome__text {
     padding: 50px 10px;
+    top: -32px;
   }
 }
 body .l-welcome .l-welcome__text > h3 {
