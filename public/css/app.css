@@ -10029,6 +10029,11 @@ body .l-landing__hero .hero-img {
   width: 100.25%;
   height: 1000px;
 }
+@media screen and (max-width: 767px) {
+  body .l-landing__hero .hero-img {
+    height: 815px;
+  }
+}
 body .l-landing__hero .l-div__top {
   position: absolute;
   top: 0;
@@ -10041,6 +10046,11 @@ body .l-landing__hero .l-div__top {
   margin: 0 auto;
   width: 100%;
 }
+@media screen and (max-width: 508px) {
+  body .l-landing__hero .l-div__top {
+    font-size: 14px;
+  }
+}
 body .l-landing__hero .l-content__container {
   position: absolute;
   top: 67px;
@@ -10049,12 +10059,6 @@ body .l-landing__hero .l-content__container {
   max-width: 1133px;
   margin: 0 auto;
   width: 100%;
-}
-@media screen and (max-width: 508px) {
-  body .l-landing__hero .l-content__container .l-header__nav {
-    position: relative;
-    top: 40px;
-  }
 }
 body .l-landing__hero .l-content__container .l-header__nav > img {
   max-width: 158.84px;
@@ -10065,17 +10069,12 @@ body .l-landing__hero .l-content__container .l-header__nav > img {
 }
 @media screen and (max-width: 767px) {
   body .l-landing__hero .l-content__container .l-header__nav > img {
-    margin-left: 50px;
+    margin-left: 15px;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   body .l-landing__hero .l-content__container .l-header__nav > img {
     margin-left: 50px;
-  }
-}
-@media screen and (max-width: 390px) {
-  body .l-landing__hero .l-content__container .l-header__nav > img {
-    margin-left: 5px;
   }
 }
 body .l-landing__hero .l-content__container .l-header__nav ul {
@@ -10107,25 +10106,23 @@ body .l-landing__hero .l-content__container .l-available__box {
   position: relative;
   top: 90px;
 }
-@media screen and (max-width: 445px) {
-  body .l-landing__hero .l-content__container .l-available__box {
-    margin-left: 5px;
-  }
-}
 @media screen and (max-width: 1200px) and (min-width: 768px) {
   body .l-landing__hero .l-content__container .l-available__box {
     margin-left: 65px;
   }
 }
-@media screen and (max-width: 767px) and (min-width: 446px) {
+@media screen and (max-width: 767px) {
   body .l-landing__hero .l-content__container .l-available__box {
+    top: 30px;
     margin-left: 30px;
+    width: 264px;
+    height: 253px;
   }
 }
 body .l-landing__hero .l-content__container .l-available__box .l-available {
-  position: absolute;
+  position: relative;
   top: 42px;
-  left: 44px;
+  margin: 0 auto 40px;
   max-width: 220px;
   width: 100%;
   height: 61px;
@@ -10143,13 +10140,20 @@ body .l-landing__hero .l-content__container .l-available__box .l-available .l-av
   font-weight: bold;
   font-family: "Libre Baskerville", serif;
 }
-body .l-landing__hero .l-content__container .l-available__box .l-available > p {
+body .l-landing__hero .l-content__container .l-available__box > p {
   font-size: 60px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
   padding-top: 5px;
-  line-height: 72px;
+  line-height: 76px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 767px) {
+  body .l-landing__hero .l-content__container .l-available__box > p {
+    font-size: 36px;
+    line-height: 47px;
+  }
 }
 body .l-landing__hero .l-content__container .l-free__text > p {
   position: relative;
@@ -10161,9 +10165,10 @@ body .l-landing__hero .l-content__container .l-free__text > p {
   color: #323232;
   padding-top: 40px;
 }
-@media screen and (max-width: 767px) and (min-width: 446px) {
+@media screen and (max-width: 767px) and (min-width: 391px) {
   body .l-landing__hero .l-content__container .l-free__text > p {
     margin-left: 30px;
+    padding-top: 0;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
@@ -10185,9 +10190,9 @@ body .l-landing__hero .l-content__container .l-loginregister {
     margin-left: 40px;
   }
 }
-@media screen and (max-width: 532px) {
+@media screen and (max-width: 767px) and (min-width: 391px) {
   body .l-landing__hero .l-content__container .l-loginregister {
-    left: 0;
+    margin-left: 15px;
   }
 }
 body .l-landing__hero .l-content__container .l-loginregister .l-btn__group > button:nth-child(1) {
@@ -10214,18 +10219,13 @@ body .l-welcome {
 }
 @media screen and (max-width: 1126px) {
   body .l-welcome {
-    padding: 0 50px;
+    padding: 0 30px;
   }
 }
 @media screen and (max-width: 390px) {
   body .l-welcome {
     padding: 0 5px;
     margin-bottom: 95px;
-  }
-}
-@media screen and (min-width: 1920px) {
-  body .l-welcome {
-    background-size: 100% 100%;
   }
 }
 body .l-welcome .l-welcome__text {
@@ -10704,7 +10704,7 @@ body .l-why__psychics .l-why__wrapper {
     text-align: center;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 767px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
   body .l-why__psychics .l-why__wrapper {
     padding-right: 44px;
     padding-left: 44px;
@@ -10712,7 +10712,7 @@ body .l-why__psychics .l-why__wrapper {
     padding-bottom: 36px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 767px) {
   body .l-why__psychics .l-why__wrapper {
     padding-right: 0;
     padding-left: 0;

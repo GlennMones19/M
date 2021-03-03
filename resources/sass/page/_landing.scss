@@ -17,6 +17,9 @@ body {
             .hero-img {
                 width: 100.25%;
                 height: 1000px;
+                @media screen and (max-width: 767px) {
+                    height: 815px;
+                }
             }
             .l-div__top {
                 position: absolute;
@@ -29,6 +32,9 @@ body {
                 max-width: 100%;
                 margin: 0 auto;
                 width: 100%;
+                @media screen and (max-width: 508px) {
+                    font-size: 14px;
+                }
             }
             .l-content__container {
                 position: absolute;
@@ -38,11 +44,7 @@ body {
                 max-width: 1133px;
                 margin: 0 auto;
                 width: 100%;
-                .l-header__nav {
-                    @media screen and (max-width: 508px) {
-                       position: relative;
-                       top: 40px;
-                    }
+                .l-header__nav {    
                     &>img {
                         max-width: 158.84px;
                         width: 100%;
@@ -50,13 +52,10 @@ body {
                         margin-top: 33px;
                         margin-left: 4px;
                         @media screen and (max-width: 767px) {
-                            margin-left: 50px;
+                            margin-left: 15px;
                         }
                         @media screen and (max-width: 1200px) and (min-width: 768px) {
                             margin-left: 50px;
-                        }
-                        @media screen and (max-width: 390px) {
-                            margin-left: 5px;
                         }
                     }
                     ul {
@@ -94,19 +93,19 @@ body {
                     background-color: $bg-base;
                     position: relative;
                     top: 90px;
-                    @media screen and (max-width: 445px) {
-                       margin-left: 5px;
-                    }
                     @media screen and (max-width: 1200px) and (min-width: 768px) {
                        margin-left: 65px;
                     }
-                    @media screen and (max-width: 767px) and (min-width: 446px) {
-                       margin-left: 30px;
+                    @media screen and (max-width: 767px){
+                        top: 30px;
+                        margin-left: 30px;
+                        width: 264px;
+                        height: 253px;
                     }
                     .l-available {
-                        position: absolute;
+                        position: relative;
                         top: 42px;
-                        left: 44px;
+                        margin: 0 auto 40px;
                         max-width: 220px;
                         width: 100%;
                         height: 61px;
@@ -125,13 +124,18 @@ body {
                                 font-family: $ff;
                             }
                         }
-                        &>p {
-                            font-size: 60px;
-                            font-family: $ff-impact;
-                            font-weight: 400;
-                            color: $fc-white;
-                            padding-top: 5px;
-                            line-height: 72px;
+                    }
+                    &>p {
+                        font-size: 60px;
+                        font-family: $ff-impact;
+                        font-weight: 400;
+                        color: $fc-white;
+                        padding-top: 5px;
+                        line-height: 76px;
+                        margin-left: 50px;
+                        @media screen and (max-width: 767px) {
+                            font-size: 36px;
+                            line-height: 47px;
                         }
                     }
                 }
@@ -145,8 +149,9 @@ body {
                         font-size: $fs-31;
                         color: $fc-blk;
                         padding-top: 40px;
-                        @media screen and (max-width: 767px) and (min-width: 446px) {
+                        @media screen and (max-width: 767px) and (min-width: 391px) {
                             margin-left: 30px;
+                            padding-top: 0;
                         }
                          @media screen and (max-width: 1200px) and (min-width: 768px) {
                             margin-left: 60px;
@@ -162,8 +167,8 @@ body {
                      @media screen and (max-width: 1200px) and (min-width: 768px) {
                         margin-left: 40px;
                     }
-                    @media screen and (max-width: 532px) {
-                        left: 0;
+                    @media screen and (max-width: 767px) and (min-width: 391px) {
+                       margin-left: 15px;
                     }
                     .l-btn__group {
                         &>button {
@@ -194,14 +199,11 @@ body {
             background-size: auto;
             margin-bottom: 178px;
             @media screen and (max-width: 1126px) {
-                padding: 0 50px;
+                padding: 0 30px;
             }
             @media screen and (max-width: 390px) {
                 padding: 0 5px;
                 margin-bottom: 95px;
-            }
-            @media screen and (min-width: 1920px) {
-                background-size: 100% 100%;
             }
             .l-welcome__text {
                 max-width: 1110px;
@@ -628,13 +630,13 @@ body {
                     flex-direction: column;
                     text-align: center;
                 }
-                @media screen and (max-width: 1200px) and (min-width: 767px) {
+                @media screen and (max-width: 1200px) and (min-width: 768px) {
                     padding-right: 44px;
                     padding-left: 44px;
                     padding-top: 30px;
                     padding-bottom: 36px;
                 }
-                @media screen and (max-width: 390px) {
+                @media screen and (max-width: 767px) {
                     padding-right: 0;
                     padding-left: 0;
                     padding-top: 30px;

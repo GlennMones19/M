@@ -15,8 +15,8 @@
                         <p class="my-auto ml-3 text-white">AVAILABLE</p>
                         <p class="my-auto text-white">24/7</p>
                     </div>
-                    <p class="d-flex">TEXT YOUR WAY TO HAPPINESS</p>
                 </div>
+                <p>TEXT YOUR WAY TO HAPPINESS</p>
             </div>
             <div class="l-free__text">
                 <p>3 Free Messages to the<br>
@@ -224,5 +224,5 @@
             <p class="reserved">© 2021 All rights reserved.</p>
         </div>
     </footer>
-    @include("popup")
+    {{-- @include("popup") --}}
 @endsection
